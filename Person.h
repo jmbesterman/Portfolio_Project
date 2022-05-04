@@ -1,6 +1,11 @@
-//
-// Created by jmbesterman on 4/3/22.
-//
+//Jeremy Besterman
+//CSCE 306, Spring 2022
+//Portfolio Project
+
+//Code Summary: .h file for Person class, inherited by the Bank class.
+
+//Changelog: Added in a constructor that takes in a username and password that is entered by user, so that the info can
+//be stored on login.
 
 #ifndef PORTFOLIO_PROJECT_PERSON_H
 #define PORTFOLIO_PROJECT_PERSON_H
@@ -25,8 +30,8 @@ private:
     string username;
     int password;
     float balance;
-    char name_array[];
-    int price_array[];
+    //char name_array[];
+    //int price_array[];
 };
 
 
